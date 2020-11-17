@@ -1,30 +1,25 @@
 # PyBer_Analysis
-Matplotlib
 
-creating visualizations of rideshare data for PyBer to help improve access to ride-sharing services and determine affordability for underserved neighborhoods
+## Overview of the Analysis
 
-Python graphing library Matplotlib, which is a favorite tool among data scientists and data analysts because of its robust visualization features
+### Purpose
+The purpose of this analysis was to create a summary DataFrame of the ride-sharing data by city type. Based on the results, a multiple-line graph was created to that show the total weekly fares for each city type. Finally, the summary that explains how the data differs by city type and how any disparities can be brought forth to the CEO to improving the business.
 
-Import your data into a Pandas DataFrame.
-Merge your DataFrames.
-Create a bubble chart that showcases the average fare versus the total number of rides with bubble size based on the total number of drivers for each city type, including urban, suburban, and rural.
-Determine the mean, median, and mode for the following:
-The total number of rides for each city type.
-The average fares for each city type.
-The total number of drivers for each city type.
-Create box-and-whisker plots that visualize each of the following to determine if there are any outliers:
-The number of rides for each city type.
-The fares for each city type.
-The number of drivers for each city type.
-Create a pie chart that visualizes each of the following data for each city type:
-The percent of total fares.
-The percent of total rides.
-The percent of total drivers.
+## Results 
+Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. The results were found using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns. Doing so calculated the total number of rides, total number of drivers, the total fares, the average fare per ride and average fare per driver for each city type. Finally, the data was put into a new DataFrame.
+- Based on the results below, it is apparent that the majority of the rides, drivers, fares come from urban cities. Urban cities make up more  60% of the total rides, total drivers, and total fares.
+    - ![]()
+    - ![]()
+    - ![]()
+- Although the number of rides are low in rural cities, the average fare per ride and driver are higher in comparison to other cities. The cause of the higher average is probably due to the fact that rural shares are longer and scarce. The images below validate this assumption.
+    - ![]()
+    - ![]()
+- The total fare by city type showcases that urban cities generate the most revenue; followed by suburban and rural cities. 
+    - ![]()
 
-For the bubble chart, we will need to plot the following:
+## Summary
 
-The average fare for each type of city on the y-axis
-The total number of rides for each type city on the x-axis
-Make the size of each marker, or bubble, correlate to the average number of drivers for each type of city
-
-Using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns, get the total number of rides, total number of drivers, and the total fares for each city type. Then, calculate the average fare per ride and average fare per driver for each city type. Finally, add this data to a new DataFrame, then format the columns.
+### Three Business Recommendations:
+1. There are more drivers than riders in urban cities. It is suggested the urban drivers relocate to another city type or CEO invest money in marketing and advertisements to attract potential riders.
+2. The drivers should consider relocating to rural cities at the end of Feburary and beginning of May when ride count are at its highest. Drivers can earn more as the average fare per driver are higher in rural cities.
+3. Urban cities should continue to have a sufficient amount of drivers in the month of March in order to meet the high demands. 
