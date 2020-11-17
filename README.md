@@ -6,16 +6,17 @@
 The purpose of this analysis was to create a summary DataFrame of the ride-sharing data by city type. Based on the results, a multiple-line graph was created to that show the total weekly fares for each city type. Finally, the summary that explains how the data differs by city type and how any disparities can be brought forth to the CEO to improving the business.
 
 ## Results 
-Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. The results were found using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns. Doing so calculated the total number of rides, total number of drivers, the total fares, the average fare per ride and average fare per driver for each city type. Finally, the data was put into a new DataFrame.
+Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type. The results were found using the Pandas groupby() function with the count() and sum() methods on PyBer DataFrame columns. Doing so calculated the total number of rides, total number of drivers, the total fares, the average fare per ride and average fare per driver for each city type. Finally, the data was put into a new DataFrame and formatted as such.
+- ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/PyBer_summary_by_city_type.png)
 - Based on the results below, it is apparent that the majority of the rides, drivers, fares come from urban cities. Urban cities make up more  60% of the total rides, total drivers, and total fares.
-    - ![]()
-    - ![]()
-    - ![]()
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/Fig5.png)
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/Fig6.png)
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/Fig7.png)
 - Although the number of rides are low in rural cities, the average fare per ride and driver are higher in comparison to other cities. The cause of the higher average is probably due to the fact that rural shares are longer and scarce. The images below validate this assumption.
-    - ![]()
-    - ![]()
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/Fig1.png)
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/Fig3.png)
 - The total fare by city type showcases that urban cities generate the most revenue; followed by suburban and rural cities. 
-    - ![]()
+    - ![](https://github.com/irenedepacina/PyBer_Analysis/blob/main/analysis/PyBer_fare_summary.png)
 
 ## Summary
 
